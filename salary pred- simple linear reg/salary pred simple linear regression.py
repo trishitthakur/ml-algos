@@ -1,5 +1,5 @@
 '''from the machine learning A-Z course
-   coded by trishit nath thakur'''
+   coded by trishit nath thakur '''
 
 #Importing libraries
 
