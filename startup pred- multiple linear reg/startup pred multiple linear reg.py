@@ -48,3 +48,9 @@ np.set_printoptions(precision=2)  #numerical values with 2 decimal after comma
 print(np.concatenate((y_pred.reshape(len(y_pred),1), y_test.reshape(len(y_test),1)),1))
 
  #to print real values and predicted values side by side to compare
+
+# Evaluating the model performance
+
+from sklearn.metrics import r2_score
+r2_score(y_test,  y_pred)
+
