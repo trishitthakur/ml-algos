@@ -54,7 +54,7 @@ print(X_test)
 
 from sklearn.linear_model import LogisticRegression
 classifier = LogisticRegression(random_state = 0)  #creating object of logistic regression with random_state seed used by random number generator
-classifier.fit(X_train, y_train) #object fitted with dataset
+classifier.fit(X_train, y_train) #object fitted with training set
 
 
 # Predicting a new result
